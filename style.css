@@ -1,0 +1,32 @@
+
+#back-image{
+    width:2000px;
+    height:1145px;
+    z-index:1;
+    position: relative;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#back-image:after{
+    width:2000px;
+    height:1145px;
+    z-index:-1;
+    position: absolute;
+    top:-0;
+    left:0;
+    content:"";
+    background-image: url("http://cfile223.uf.daum.net/image/27304036542237C931F1C6");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-origin: content-box;
+    background-size: 100%;
+    
+    opacity: 0.45!important; filter:alpha(opacity=45);
+}
+.hobby{
+    margin-top: 0%;
+}
+.me{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
